@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "TeacherAPIController",
+    "Method": "AddTeacher",
+    "RelativePath": "api/TeacherAPI/AddTeacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeacherAPIController",
+    "Method": "DeleteTeacher",
+    "RelativePath": "api/TeacherAPI/DeleteTeacher/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
